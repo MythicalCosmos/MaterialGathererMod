@@ -1,0 +1,5 @@
+This mod gets materials for you in 2 steps.
+Step 1) You give it a list of materials and then the bot doesn't get those materials it goes and gets the materials to craft and or smelt those materials. (The materials must be in the dimension that you are in or else you will get an error similar to 'Failed to get Items 'list of items' because it was either not in the area or not in the same dimension.' (later there will be seed suport)
+Step 2) It takes the materials from step and it does this in 2 parts. Part A) You tell the bot where to put the materials. Exp: Chests, Shulkers, Etc. Part B) It takes the materials from part 1 and then crafts them into the right materials. You can run this multiple times if you need to craft and or smelt the materials to craft and or smelt one of the actual items on the list.
+There is a customizable Material list
+Sources: I used fabricmc.net to get the example mod, I used a video tutorial from Kaupenjoe https://www.youtube.com/watch?v=0Pr_iHlVKsI&list=PLKGarocXCE1EO43Dlf5JGh7Yk-kRAXUEJ&pp=iAQB, and I used baritones stuff (credit has not been finished (i havent figured out how to credit them)).
