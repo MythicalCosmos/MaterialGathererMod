@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "litematicamaterialgenerator",
+	"version": "${version}",
+	"name": "MaterialGatherer",
+	"description": "This mod gathers resouces for you in 2 steps. step 1 you give it a list and it gets all the materials that it can from the dimension you are in. Step 2 it crafts or smelts the materials into the final mattiral form you want it to be, if you need to craft something multiple times you will input the craft/smelt command multiple times until it is all done. (I am going to try and add it so you only have to input one command in the future.) (you do have to say where you want the materials to get put into and if you want it to search chests in a radius around where the materials are going to go, Lets say for example you need to get oak logs and they are not in an area that you can see it will ask you if that material is near you.)",
+	"authors": [
+		"MythicalCosmos"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/materialgatherer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.max.materialgatherer.MaterialGatherer"
+		],
+		"client": [
+			"net.max.materialgatherer.MaterialGathererClient"
+		],
+		"fabric-datagen": [
+			"net.max.materialgatherer.MaterialGathererDataGenerator"
+		]
+	},
+	"mixins": [
+		"litematicamaterialgenerator.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
